@@ -2,6 +2,7 @@
   "name": "hello-prisma",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +11,9 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@types/node": "^24.3.3",
+    "@types/node": "^24.4.0",
     "prisma": "^6.16.1",
+    "ts-node": "^10.9.2",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
   },
